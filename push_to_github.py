@@ -27,7 +27,7 @@ def push_to_github(output_dir: str):
     subprocess.run(['git', 'commit', '-m', commit_message])
     
     # Push to GitHub
-    subprocess.run(['git', 'push', '-u', 'origin', 'main'])
+    subprocess.run(['git', 'push', '-u', 'origin', 'master'])
     
     print("Results pushed to GitHub successfully!")
 
